@@ -1,0 +1,42 @@
+// program to find the ASCII value of a character
+
+// take input from the user
+/*
+const string = prompt('Enter a character: ');
+
+// convert into ASCII value
+const result = string.charCodeAt(0);
+
+console.log(`The ASCII value is: ${result}`);
+
+function separateLettersWithCommas(inputString) {
+  // Split the string into characters and join them with commas
+  return inputString.split("").join(",");
+}
+
+// Test the function
+const originalString = "world";
+const resultString = separateLettersWithCommas(originalString);
+console.log(resultString); // "w,o,r,l,d"
+*/
+//THE LOGIC THAT ILL BE DOING
+const adsa="dasd"
+const az = adsa.split("")
+console.log(adsa);
+console.log(az);
+let z = ""
+for(var asd of az)
+{
+    z += asd + "\n" 
+}
+console.log(z)
+
+
+
+
+
+
+
+
+
+
